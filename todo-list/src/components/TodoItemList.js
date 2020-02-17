@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TodoListTemplate from './TodoListTemplate';
+import TodoItem from './TodoItem';
 
 class TodoItemList extends Component {
     render() {
@@ -7,7 +7,9 @@ class TodoItemList extends Component {
 
         return(
             <div>
-                
+                <TodoItem text="안녕"/>
+                <TodoItem text="리액트"/>
+                <TodoItem text="반가워"/>
             </div>
         );
     }
